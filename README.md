@@ -55,7 +55,7 @@ subsequent taint gets ignored.
 ---------------
 ## How to run?
 
-In order to run FIFO you need to register the callback from the repo with the rust parser in src/main.rs and add an import to src/callbacks/mod.rs.  
+In order to run FIFO you need to register the callback from the repo with the rust parser in src/main.rs and add an import to src/callbacks/mod.rs. There are very nice instructions on how to do this in the original repo with the parser https://github.com/gcarq/rusty-blockparser.
 
 The script expects a file to be passed to it, that contains the information about the initial taint values (currently uses --address-file flag)
 The transaction file currently has the following format:
