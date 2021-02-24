@@ -1,0 +1,90 @@
+/*****  DEFAULTS ******/
+
+circle.vz-radial_progress-back-circle {
+    fill:#FFF;
+    fill-opacity: .001;
+}
+
+.vz-radial_progress-plot {
+    fill:#888;
+    stroke:#777;
+    stroke-opacity:.1;
+}
+
+.vz-radial_progress-track {
+    fill:#DDD;
+    stroke:#CCC;
+    fill-opacity: .1;
+    stroke-opacity: .1;
+}
+
+.vz-radial_progress-back-circle {
+    fill:none;
+    stroke:none;
+}
+
+.vz-radial_progress-label {
+    font-weight:300;
+}
+
+/******** WHITE **********/
+
+.vz-skin-white .vz-radial_progress-track {
+    fill-opacity: .05;
+    stroke-opacity: 0;
+}
+
+.vz-skin-white .vz-radial_progress-label {
+    stroke: none;
+}
+
+.vz-skin-white .vz-radial_progress-arc {
+    stroke-opacity: 0;
+}
+
+
+/******** FIRE **********/
+
+
+.vz-skin-fire .vz-radial_progress-track {
+    fill-opacity: .1;
+}
+
+
+/******** NEON **********/
+
+.vz-skin-neon .vz-radial_progress-back-circle {
+    fill: #333;
+    fill-opacity: 1;
+}
+
+.vz-skin-neon .vz-radial_progress-track {
+    stroke:#000;
+    stroke-opacity:.1;
+}
+
+
+/******** TEST CONTAINER **********/
+
+svg.vizuly {
+    fill:none;
+}
+
+div.radial_container {
+    float:left;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+#viz_container {
+    background-image: linear-gradient(
+            to bottom,
+            #403030,
+            #404040,
+            #303030,
+            #202020
+    );
+    border-radius:6px;
+}
+

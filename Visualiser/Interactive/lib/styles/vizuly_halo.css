@@ -1,0 +1,48 @@
+/* HALO - BEGIN */
+
+.vz-halo-link-node {
+    shape-rendering: auto;
+    fill-opacity: .075;
+}
+
+.vz-halo-link-path {
+    fill : #AAA;
+    stroke: #FFF;
+    stroke-opacity:0;
+    fill-opacity: 0.075;
+    shape-rendering: auto;
+}
+
+.vz-halo-arc-slice {
+    shape-rendering:auto;
+    fill:#AAA;
+}
+
+.vz-halo-arc {
+    shape-rendering:auto;
+    fill-opacity: .01;
+}
+
+.vz-halo-arc-slice {
+    shape-rendering:auto;
+    fill-opacity: .45;
+}
+
+.vz-halo-node {
+    shape-rendering:auto;
+    fill:#AAA;
+    fill-opacity: .3;
+    stroke-opacity:.15;
+}
+
+.vz-halo-label {
+    font-family:Arial,Helvetica;
+}
+
+.vz-halo-label rect {
+    fill:#000;
+}
+
+
+
+/* HALO - END */

@@ -1,0 +1,20 @@
+/* SCATTER - BEGIN */
+.vz-scatter {
+    shape-rendering: auto;
+}
+
+.vz-scatter-bottom-axis-line {
+    stroke:#FFF;
+}
+
+.vz-scatter-bottom-axis {
+    font-weight: 300;
+    fill-opacity: .6;
+}
+
+.vz-scatter-leftaxis {
+    font-weight: 300;
+    fill-opacity: .6;
+}
+
+/* SCATTER - END */

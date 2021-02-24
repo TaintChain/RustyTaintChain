@@ -1,0 +1,24 @@
+Category,Level1,Level2,Level3,Level4,Taint1,,T1XT2,Taint2,Taint3,Total
+1,Taint at Block x,,,,10.08,,,12,0,22.08
+2,Taint at Block x,Block 123,Block 221,Block 321,12.09,,,12,0,24.09
+3,Taint at Block x,Block 123,Block 221,Block 322,0.3,,,1,0,1.3
+4,Taint at Block x,Block 124,,,0.08,,,1,0,1.08
+5,Taint at Block x,Block 126,Block 223,,0,,,13,0,13
+6,Taint at Block x,Block 126,,,0,,,14,0,14
+,Taint at Block x,Block 126,Block 224,Block 323,0,,,10,109,119
+,Taint at Block x,Block 126,Block 224,Block 324,0,,,10,1200,1210
+,Taint at Block x,Block 126,Block 224,Block 325,0,,,10,12,22
+,Taint at Block x,Block 126,Block 225,Block 326,0,,,10,13,23
+,Taint at Block x,Block 126,Block 225,Block 326,0,,,10,14,24
+,Taint at Block x,Block 126,Block 226,Block 328,0,,,0,15,15
+,Taint at Block x,Block 126,Block 226,Block 329,0,,,0,16,16
+,Taint at Block x,Block 101,Block 227,Block 330,31.95,,,0,17,48.95
+7,Taint at Block y,Block 127,,,5.5,,,15,0,20.5
+8,Taint at Block y,Block 120,,,55.5,,,16,100,171.5
+9,Taint at Block y,Block 120,Block 233,,0,,,5,23,28
+10,Taint at Block y,Block 130,Block 234,Block 334,0,,,5,33.44,38.44
+11,Taint at Block y,Block 130,,,13.41,,,6,0,19.41
+12,Taint at Block z,Block 132,,,23,,,0,0,23
+13,Taint at Block z,Block 133,Block 251,,1.44,,,0,0,1.44
+14,Taint at Block z,Block 134,,,12.12,,,0,0,12.12
+,,Level2,Level3,Level4,,,,,,
