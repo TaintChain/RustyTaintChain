@@ -1,0 +1,145 @@
+
+svg.vizuly path.domain {
+    fill:none;
+}
+
+.vizuly {
+    fill:#AAA;
+    shape-rendering: auto;
+}
+
+.vz-plot-background {
+    fill:#FFF;
+}
+
+
+.vz-bar{
+    stroke: #EEE;
+    shape-rendering:auto;
+}
+
+.vz-area {
+    fill-opacity:0.7;
+    shape-rendering: auto;
+}
+
+.vz-line {
+    stroke: #777;
+    stroke-width:1px;
+    stroke-opacity: 1;
+    fill:none;
+    shape-rendering: auto;
+}
+
+.vz-tip {
+    stroke: 1px;
+    fill:none;
+    stroke: #777777;
+    stroke-opacity: 1;
+    shape-rendering: auto;
+}
+
+.vz-line-indicator {
+    stroke:#555;
+    stroke-width: 1px;
+}
+
+.vz-data-point {
+    shape-rendering: auto;
+}
+
+.vz-bottomAxis {
+    shape-rendering: crispEdges;
+}
+
+.vz-skin-default {
+
+
+}
+
+.vz-radial-axis-tick {
+    font-weight:300;
+}
+
+.vz-skin-axiis {
+    background-image: linear-gradient(
+            to bottom,
+            #d0d0d0,
+            #dfdfdf,
+            #f3f3f3,
+            #d0d0d0
+    );
+    border-radius: 5px;
+    border:1px solid #BBB;
+}
+
+.vz-skin-ocean {
+    background-image: url("img/vz-skin-galaxy_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 5px;
+}
+
+
+.vz-axiis-datatip {
+    background: rgba(232, 232, 232, 0.9);
+    border-radius:3px;
+    border: 1px solid #AAA;
+    fill:#FFF;
+    padding:10px;
+    font-face:Raleway; text-transform:uppercase; font-weight:200; color:#000;
+}
+
+.vz-material-datatip {
+    background: rgba(35, 35, 35, 0.7);
+    border-radius:3px;
+    border: 1px solid #AAA;
+    fill:#FFF;
+    padding:10px;
+    font-face:Raleway; text-transform:uppercase; font-weight:200; color:#FFF;
+}
+
+.vz-neon-datatip {
+    background: rgba(106, 106, 106, 0.7);
+    border-radius:3px;
+    border: 1px solid #777;
+    padding:10px;
+    font-face:Raleway; text-transform:uppercase; font-weight:200; color:#FFF;
+}
+
+.vz-minimal-datatip {
+    background: rgba(220, 220, 220, 1);
+    border-radius:1px;
+    border: 1px solid #333;
+    padding:10px;
+    font-face:Raleway;
+    text-transform:uppercase;
+    color:#333;
+}
+
+.vz-minimal-datatip span {
+    font-weight:300!important;
+}
+
+.vz-viz circle {
+    shape-rendering:auto;
+}
+
+
+.vz-skin-political-influence {
+    background-color:#EEEEEE;
+    border-radius: 5px;
+}
+
+svg {
+    fill:#FFF;
+}
+
+i.mdi-navigation-menu:before {
+    font-size:40px;
+    content: "\e662";
+}
+i.mdi-navigation-menu:hover {
+    transition: color 0.5s ease;
+    color: #0176B4;
+}
